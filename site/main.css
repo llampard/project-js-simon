@@ -42,7 +42,7 @@ html {
 }
 
 .simon-button.green {
-  background-color: #21BA45;
+  background-color: green;
 }
 
 .simon-button.red {
@@ -56,3 +56,8 @@ html {
 .simon-button.blue {
   background-color: #2185D0;
 }
+
+.simon-button:hover {
+  filter: brightness(1.75);
+}
+
