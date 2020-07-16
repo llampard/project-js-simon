@@ -1,5 +1,8 @@
 let greenButton = document.querySelector('.simon-button.green');
 greenButton.addEventListener('click', function() {
+  var myMusic = document.getElementById('music');
+  myMusic.play();
+  alert('You clicked the green button');
   var myMusic = document.getElementById('clip1');
   myMusic.play();
   //alert('You clicked the green button');
@@ -25,3 +28,14 @@ blueButton.addEventListener('click', function() {
   myMusic.play();
   //alert('You clicked the blue button');
 });
+
+
+function PlaySound(){
+  alert("hello");
+  let nobody = new audio();
+  nobody.src = "nobody.mp3";
+  document.querySelector("#nobody");
+  nobody.Play();
+}
+
+
