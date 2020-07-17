@@ -28,7 +28,22 @@ html {
 #content h1 {
   font-size: 3rem;
   text-align: center;
-  color: maroon;
+  color: green;
+  background-image: linear-gradient(to right, green, red, yellow, blue);
+}
+
+#content h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  background-image: linear-gradient(to right, green, red, yellow, blue);;
+}
+
+#content h3 {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  background-image: linear-gradient(to right, green, red, yellow, blue);;
 }
 
 .button-container {
