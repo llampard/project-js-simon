@@ -2,6 +2,7 @@
   box-sizing: border-box;
 
 }
+
 html {
   background-image: linear-gradient(to right, green, red, yellow, blue);
   font-family: Arial;
@@ -36,7 +37,7 @@ html {
   font-size: 3rem;
   text-align: center;
   color: black;
-  background-image: linear-gradient(to right, green, red, yellow, blue);;
+  background-image: linear-gradient(to right, green, red, yellow, blue);
 }
 
 #content h3 {
@@ -56,9 +57,9 @@ html {
   text-align: center;
   width: 100%;
   height: 50px;
-  position: relative;
+  position: absolute;
   margin: 0;
-  left: 200px;
+  left: 25px;
   border-radius: 10px;
   background: border-box green;
   cursor:pointer;
@@ -66,19 +67,19 @@ html {
   font-weight: bold;
 }
 
-#reset {
+/* #reset {
   text-align: center;
   width: 100%;
   height: 50px;
   position: relative;
   margin: 0;
-  left: 223px;
+  left: 373px;
   border-radius: 10px;
   background: border-box red;
   cursor:pointer;
-color: #fff;
-font-weight: bold;
-}
+  color: #fff;
+  font-weight: bold;
+} */
 
 .simon-container {
   margin: 20px auto;
@@ -88,8 +89,8 @@ font-weight: bold;
   display:grid;
   grid-template-columns: 200px 200px;
   grid-row: auto auto;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   padding: 100;
   animation-name: spin;
   animation-duration: 20000ms;
