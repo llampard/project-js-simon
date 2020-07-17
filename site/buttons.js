@@ -31,10 +31,10 @@ blueButton.addEventListener('click', function() {
 });
 
 let header = document.getElementById("buttons");
-let btns = header.getElementsByClassName("simon-button");
+let buttons = header.getElementsByClassName("simon-button");
 let countClicks = 0;
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("mousedown", function() {
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("mousedown", function() {
     var current = document.getElementsByClassName("active");
     if (current.length > 0) {
       current[0].className = current[0].className.replace(" active", "");
@@ -44,7 +44,7 @@ for (var i = 0; i < btns.length; i++) {
     console.log(countClicks +" clicks");
     document.getElementById("clicks").innerHTML = countClicks;
   });
-  btns[i].addEventListener("mouseup", function() {
+  buttons[i].addEventListener("mouseup", function() {
     this.className = this.className.replace(" active", "");
   });
 }
