@@ -1,8 +1,5 @@
 let greenButton = document.querySelector('.simon-button.green');
 greenButton.addEventListener('click', function() {
-  var myMusic = document.getElementById('music');
-  myMusic.play();
-  alert('You clicked the green button');
   var myMusic = document.getElementById('clip1');
   myMusic.play();
   document.getElementById("buttonClicks").innerHTML = "DOGE";
@@ -33,7 +30,6 @@ blueButton.addEventListener('click', function() {
   //alert('You clicked the blue button');
 });
 
-<<<<<<< HEAD
 let header = document.getElementById("buttons");
 let btns = header.getElementsByClassName("simon-button");
 let countClicks = 0;
@@ -52,15 +48,3 @@ for (var i = 0; i < btns.length; i++) {
     this.className = this.className.replace(" active", "");
   });
 }
-=======
-
-function PlaySound(){
-  alert("hello");
-  let nobody = new audio();
-  nobody.src = "nobody.mp3";
-  document.querySelector("#nobody");
-  nobody.Play();
-}
-
-
->>>>>>> edfdc47ab4ce79f03dcda47631fafb5cdc89674c
